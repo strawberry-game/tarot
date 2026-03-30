@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>タロット占い - フル78枚対応 GitHub版</title>
+  <title>タロット占い - フル78枚対応</title>
   <style>
     :root{
       --bg1:#0d1324; --bg2:#1b2743; --panel:rgba(12,18,34,0.84); --line:rgba(241,220,156,0.28);
@@ -125,8 +125,7 @@
     <section class="hero">
       <h1>タロット占い</h1>
       <p>
-        フル78枚対応のデッキから、過去・現在・未来の3枚を引くGitHub Pages向けの完全版です。<br>
-        すべてブラウザ内で動作するため、Apps Scriptなしでもそのまま公開できます。
+        フル78枚対応のデッキから、過去・現在・未来の3枚を引くタロット占いです。
       </p>
       <div class="subinfo">大アルカナ 22枚 / 小アルカナ 56枚 / 合計 78枚</div>
     </section>
@@ -153,16 +152,14 @@
         <h2>今回の全体メッセージ</h2>
         <p id="summaryText"></p>
         <div class="note">
-          ※ このGitHub版は <span class="ok">ブラウザ内だけで完結</span> します。<br>
-          ※ 履歴はスプレッドシートではなく <span class="ok">localStorage</span> に保存されます。<br>
-          ※ カード画像は外部ファイルではなく、SVGを自動生成しています。
+          ※ 履歴は <span class="ok">localStorage</span> に保存されます。<br>
         </div>
       </div>
     </section>
 
     <section class="history">
       <div class="history-head"><h2>占い履歴</h2></div>
-      <div class="history-note">この端末のブラウザに直近10件まで保存します。GitHub Pagesで公開しても使えます。</div>
+      <div class="history-note">この端末のブラウザに直近10件まで保存します。</div>
       <div id="historyList" class="history-list"></div>
     </section>
 
